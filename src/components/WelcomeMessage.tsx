@@ -9,11 +9,11 @@ function WelcomeMessage() {
           .typeString("Hello. I Am Oscar.")
           .pauseFor(1000)
           .deleteAll()
-          .typeString("Web Developer.")
+          .typeString("Aspiring Front End Developer.")
           .pauseFor(1000)
           .deleteAll()
           .start()
-          .typeString("Welcome.");
+          .typeString("Welcome to my Portfolio.");
       }}
     />
   );
