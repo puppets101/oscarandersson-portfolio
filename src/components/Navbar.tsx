@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <header className='bg-gray-600 absolute z-10 w-full'>
+    <header className='bg-green-800 bg-opacity-80 absolute z-10 w-full'>
       <div className='container mx-auto flex justify-between'>
         <nav className='flex'>
           <div>
@@ -11,7 +11,7 @@ function Navbar() {
               to='/'
               exact
               activeClassName='text-white'
-              className='inline-flex items-center py-6 px-3 mr-4 hover:text-gray-200 text-2xl font-bold font tracking-widest'
+              className='inline-flex items-center py-8 px-3 mr-4 hover:text-gray-200 text-2xl font-bold font tracking-widest'
             >
               OscarAndersson
             </NavLink>
@@ -21,7 +21,7 @@ function Navbar() {
               to='/skills'
               exact
               activeClassName='text-white'
-              className='inline-flex items-center py-6 px-3 mr-4 hover:text-gray-200 text-2xl font-bold font tracking-widest'
+              className='inline-flex items-center py-8 px-3 mr-4 hover:text-gray-200 text-2xl font-bold font tracking-widest'
             >
               Skills
             </NavLink>
@@ -29,7 +29,7 @@ function Navbar() {
               to='/about'
               exact
               activeClassName='text-white'
-              className='inline-flex items-center py-6 px-3 mr-4 hover:text-gray-200 text-2xl font-bold font tracking-widest'
+              className='inline-flex items-center py-8 px-3 mr-4 hover:text-gray-200 text-2xl font-bold font tracking-widest'
             >
               About
             </NavLink>
@@ -37,13 +37,12 @@ function Navbar() {
               to='/contact'
               exact
               activeClassName='text-white'
-              className='inline-flex items-center py-6 px-3 mr-4 hover:text-gray-200 text-2xl font-bold font tracking-widest'
+              className='inline-flex items-center py-8 px-3 mr-4 hover:text-gray-200 text-2xl font-bold font tracking-widest'
             >
               Contact
             </NavLink>
           </div>
         </nav>
-        <div className='inline-flex py-3 px-3 my-6'></div>
       </div>
     </header>
   );
