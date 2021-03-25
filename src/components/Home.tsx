@@ -1,21 +1,20 @@
 import React from "react";
-import image from "../assets/showcaseHero.jpeg";
+import Hero from "../assets/showcaseHero.jpeg";
 import WelcomeMessage from "./WelcomeMessage";
 
 function Home() {
   return (
-    <main>
-      <img
-        src={image}
-        alt={image}
-        className='absolute object-cover w-full h-full'
-      />
-      <section className='relative flex justify-center min-h-screen pt-12 lg:pt-64 sm:pt-64 px-8'>
-        <h1 className='text-green-100 font-bold lg:text-8xl sm:text-6xl xs:text-2xl  font leading-none lg:leading-snug home-name'>
+    <div className='min-h-full bg-gray-100'>
+      <div className='h-screen flex flex-col'>
+        <div
+          className='relative flex items-center justify-center h-full bg-cover bg-center bg-fixed bg-no-repeat'
+          style={{ backgroundImage: `url(${Hero})` }}
+        >
           <WelcomeMessage />
-        </h1>
-      </section>
-    </main>
+          <div className='z-0 absolute -top-0 -left-0 h-full w-full bg-black opacity-40'></div>
+        </div>
+      </div>
+    </div>
   );
 }
 
