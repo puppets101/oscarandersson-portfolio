@@ -40,22 +40,22 @@ function Navbar() {
             </div>
             <div className='md:mr-4'>
               <NavLink
-                to='/skills'
-                exact
-                activeClassName='text-gray-200'
-                className='flex w-full text-xl font-bold uppercase hover:text-gray-300 cursor-pointer py-1 px-4'
-              >
-                Skills
-              </NavLink>
-            </div>
-            <div className='md:mr-4'>
-              <NavLink
                 to='/about'
                 exact
                 activeClassName='text-gray-200'
                 className='flex w-full text-xl font-bold uppercase hover:text-gray-300 cursor-pointer py-1 px-4'
               >
                 About
+              </NavLink>
+            </div>
+            <div className='md:mr-4'>
+              <NavLink
+                to='/skills'
+                exact
+                activeClassName='text-gray-200'
+                className='flex w-full text-xl font-bold uppercase hover:text-gray-300 cursor-pointer py-1 px-4'
+              >
+                Skills
               </NavLink>
             </div>
             <div className='md:mr-4'>
@@ -70,7 +70,7 @@ function Navbar() {
             </div>
           </div>
         </nav>
-        <div className='py-5 px-5'>
+        <div className=' text-gray-200 py-5 px-5'>
           <SocialFollow />
         </div>
       </div>

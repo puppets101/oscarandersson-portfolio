@@ -4,7 +4,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function SocialFollow() {
   return (
-    <div className='text-gray-200'>
+    <div className=''>
       <a
         href='https://github.com/puppets101'
         target='_blank'
