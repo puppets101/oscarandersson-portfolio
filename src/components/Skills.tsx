@@ -1,11 +1,10 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import SocialFollow from "./SocialFollow";
 
 function Skills() {
   return (
     <div
-      id="about"
+      id="skills"
       className="max-w-5xl mx-auto flex flex-row justify-center items-center h-full w-full bg-gray-100"
     >
       <div style={{ width: "40%" }} className="flex justify-center mt-16">
@@ -20,8 +19,8 @@ function Skills() {
           />
         </div>
       </div>
-      <div style={{ width: "60%" }} className="ml-6">
-        <h1 className="text-xl font-bold">
+      <div style={{ width: "60%" }} className="ml-16">
+        <h1 className="text-4xl font-bold">
           <Typewriter
             onInit={(typewriter: any) => {
               typewriter.typeString("Skills").start();
@@ -30,7 +29,7 @@ function Skills() {
         </h1>
         <div className="flex justify-between items-center">
           <div className="p-4">
-            <p className="p-4">
+            <p className="p-4 font-light">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
               facilis quae enim quo excepturi consectetur accusantium?
               Voluptatum odio explicabo esse, excepturi soluta aliquam suscipit
@@ -38,19 +37,16 @@ function Skills() {
               atque, eos impedit expedita non enim et quaerat quisquam? Modi et
               possimus neque asperiores eligendi velit eius ipsum.
             </p>
-            <p className="p-4">
+            <p className="p-4 font-light">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
               ipsam quaerat facilis quibusdam corrupti nisi cupiditate rem
               expedita quidem pariatur.
             </p>
           </div>
         </div>
-        <p className="font-bold">
+        <p className="p-4 font-semi-bold">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, maxime?
         </p>
-        <div className="mt-2 text-green-700">
-          <SocialFollow />
-        </div>
       </div>
     </div>
   );

@@ -4,12 +4,30 @@ import SocialFollow from "./SocialFollow";
 
 function Navbar() {
   const [active, setActive] = useState(false);
+  const [navbarColored, setNavbarColored] = useState(false);
 
   const onMenuClick = () => {
     setActive(!active);
   };
+
+  const changeNavbarBg = () => {
+    if (window.scrollY > 0) {
+      setNavbarColored(true);
+    } else {
+      setNavbarColored(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeNavbarBg);
+
   return (
-    <header className="bg-transparent fixed z-10 w-full">
+    <header
+      className={
+        navbarColored
+          ? "bg-black fixed z-100 w-full"
+          : `bg-transparent fixed z-10 w-full`
+      }
+    >
       <div className="max-w-7xl mx-auto flex items-center justify-between p-2.5">
         <div
           onClick={onMenuClick}
@@ -30,7 +48,7 @@ function Navbar() {
           <div className="md:flex-row md:flex">
             <div className="md:mr-4">
               <NavLink
-                to="/"
+                to="/about"
                 exact
                 activeClassName="text-green-600 text-opacity-60"
                 className="flex w-full text-xl font-bold uppercase text-gray-400 hover:text-gray-300 cursor-pointer py-1 px-4"
@@ -60,12 +78,12 @@ function Navbar() {
             </div>
             <div className="md:mr-4">
               <NavLink
-                to="/contact"
+                to="/projects"
                 exact
                 activeClassName="text-gray-800"
                 className="flex w-full text-xl font-bold uppercase text-gray-400 hover:text-gray-300 cursor-pointer py-1 px-4"
               >
-                Contact
+                Projects
               </NavLink>
             </div>
           </div>

@@ -1,7 +1,8 @@
 import React from "react";
 import Hero from "../assets/showcaseHero.jpeg";
 import About from "./About";
-import Contact from "./Contact";
+import Footer from "./Footer";
+import Projects from "./Projects";
 import Skills from "./Skills";
 import WelcomeMessage from "./WelcomeMessage";
 
@@ -17,14 +18,17 @@ function Home() {
           <div className="z-0 absolute -top-0 -left-0 h-full w-full bg-black opacity-40"></div>
         </div>
       </div>
-      <div className="h-screen flex flex-col">
+      <div className="flex flex-col my-12">
         <About />
       </div>
-      <div className="h-screen flex flex-col">
+      <div className="flex flex-col my-12">
         <Skills />
       </div>
+      <div className="flex flex-col my-12">
+        <Projects />
+      </div>
       <div className="h-96 bg-black text-white p-6 flex justify-center items-center flex-col">
-        <Contact />
+        <Footer />
       </div>
     </div>
   );
