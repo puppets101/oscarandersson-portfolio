@@ -10,10 +10,10 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Switch>
-        <Route component={Home} path='/' exact />
-        <Route component={Skills} path='/skills' />
-        <Route component={About} path='/about' />
-        <Route component={Contact} path='/contact' />
+        <Route component={Home} path="/" exact />
+        {/* <Route component={Skills} path='/skills' /> */}
+        {/* <Route component={About} path='/about' /> */}
+        {/* <Route component={Contact} path='/contact' /> */}
       </Switch>
     </BrowserRouter>
   );
