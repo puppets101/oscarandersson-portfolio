@@ -47,44 +47,36 @@ function Navbar() {
         >
           <div className="md:flex-row md:flex">
             <div className="md:mr-4">
-              <NavLink
-                to="/about"
-                exact
-                activeClassName="text-green-600 text-opacity-60"
-                className="flex w-full text-xl font-bold uppercase text-gray-400 hover:text-gray-300 cursor-pointer py-1 px-4"
+              <a
+                href="#home"
+                className="flex w-full text-xl font-bold uppercase text-gray-200 hover:text-gray-100 cursor-pointer py-1 px-4"
               >
                 Oscar Andersson
-              </NavLink>
+              </a>
             </div>
             <div className="md:mr-4">
-              <NavLink
-                to="/about"
-                exact
-                activeClassName="text-gray-800"
-                className="flex w-full text-xl font-bold uppercase text-gray-400 hover:text-gray-300 cursor-pointer py-1 px-4"
+              <a
+                href="#about"
+                className="flex w-full text-xl font-bold uppercase text-gray-200 hover:text-gray-100 cursor-pointer py-1 px-4"
               >
                 About
-              </NavLink>
+              </a>
             </div>
             <div className="md:mr-4">
-              <NavLink
-                to="/skills"
-                exact
-                activeClassName="text-gray-800"
-                className="flex w-full text-xl font-bold uppercase text-gray-400 hover:text-gray-300 cursor-pointer py-1 px-4"
+              <a
+                href="#skills"
+                className="flex w-full text-xl font-bold uppercase text-gray-200 hover:text-gray-100 cursor-pointer py-1 px-4"
               >
                 Skills
-              </NavLink>
+              </a>
             </div>
             <div className="md:mr-4">
-              <NavLink
-                to="/projects"
-                exact
-                activeClassName="text-gray-800"
-                className="flex w-full text-xl font-bold uppercase text-gray-400 hover:text-gray-300 cursor-pointer py-1 px-4"
+              <a
+                href="#projects"
+                className="flex w-full text-xl font-bold uppercase text-gray-200 hover:text-gray-100 cursor-pointer py-1 px-4"
               >
                 Projects
-              </NavLink>
+              </a>
             </div>
           </div>
         </nav>

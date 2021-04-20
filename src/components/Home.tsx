@@ -8,7 +8,7 @@ import WelcomeMessage from "./WelcomeMessage";
 
 function Home() {
   return (
-    <div className="min-h-full bg-gray-100">
+    <div id="home" className="min-h-full bg-gray-100">
       <div className="h-screen flex flex-col">
         <div
           className="relative flex items-center justify-center h-full bg-cover bg-center bg-fixed bg-no-repeat"

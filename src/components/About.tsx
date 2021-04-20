@@ -32,7 +32,7 @@ function About() {
             </p>
           </div>
         </div>
-        <p className="font-semi-bold">
+        <p className="font-semi-bold text-gray-800">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, maxime?
         </p>
       </div>

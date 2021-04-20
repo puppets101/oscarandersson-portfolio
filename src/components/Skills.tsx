@@ -44,7 +44,7 @@ function Skills() {
             </p>
           </div>
         </div>
-        <p className="p-4 font-semi-bold">
+        <p className="p-4 font-semi-bold text-gray-800">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, maxime?
         </p>
       </div>
