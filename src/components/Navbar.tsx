@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 import SocialFollow from "./SocialFollow";
 
 function Navbar() {
@@ -44,38 +45,57 @@ function Navbar() {
           md:static md:w-auto md:flex-row md:flex
         `}
         >
-          <div className="md:flex-row md:flex">
-            <div className="md:mr-4">
-              <a
-                href="#home"
+          <div className="nav-items md:flex-row md:flex">
+            <div className="nav-item md:mr-4">
+              <Link
+                to="home"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                duration={500}
                 className="flex w-full text-xl font-bold uppercase text-gray-200 hover:text-gray-100 cursor-pointer py-1 px-4"
               >
                 Oscar Andersson
-              </a>
+              </Link>
             </div>
-            <div className="md:mr-4">
-              <a
-                href="#about"
+            <div className="nav-item md:mr-4">
+              <Link
+                to="about"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-48}
+                duration={500}
                 className="flex w-full text-xl font-bold uppercase text-gray-200 hover:text-gray-100 cursor-pointer py-1 px-4"
               >
                 About
-              </a>
+              </Link>
             </div>
-            <div className="md:mr-4">
-              <a
-                href="#skills"
+            <div className="nav-item md:mr-4">
+              <Link
+                to="skills"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-48}
+                duration={500}
                 className="flex w-full text-xl font-bold uppercase text-gray-200 hover:text-gray-100 cursor-pointer py-1 px-4"
               >
                 Skills
-              </a>
+              </Link>
             </div>
-            <div className="md:mr-4">
-              <a
-                href="#projects"
+            <div className="nav-item md:mr-4">
+              <Link
+                to="projects"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-110}
+                duration={500}
                 className="flex w-full text-xl font-bold uppercase text-gray-200 hover:text-gray-100 cursor-pointer py-1 px-4"
               >
                 Projects
-              </a>
+              </Link>
             </div>
           </div>
         </nav>

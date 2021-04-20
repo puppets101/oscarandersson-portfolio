@@ -2,11 +2,15 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import ProjectCard from "./ProjectCard";
 
-function Projects() {
+interface Id {
+  id: string;
+}
+
+function Projects(props: Id) {
   return (
     <div className="flex flex-col my-12">
       <div
-        id="projects"
+        id={props.id}
         className="max-w-5xl mx-auto flex flex-row justify-center items-center bg-gray-100 my-16"
       >
         <section className="container mx-auto">

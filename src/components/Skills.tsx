@@ -1,11 +1,15 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-function Skills() {
+interface Id {
+  id: string;
+}
+
+function Skills(props: Id) {
   return (
     <div className="flex flex-col my-12">
       <div
-        id="skills"
+        id={props.id}
         className="max-w-5xl mx-auto flex flex-row justify-center items-center h-full w-full bg-gray-100"
       >
         <div style={{ width: "40%" }} className="flex justify-center mt-16">

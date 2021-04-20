@@ -9,10 +9,10 @@ function App() {
   return (
     <div className="bg-gray-100">
       <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
+      <Home id="home" />
+      <About id="about" />
+      <Skills id="skills" />
+      <Projects id="projects" />
       <Footer />
     </div>
   );
