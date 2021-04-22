@@ -2,10 +2,11 @@ import React from "react";
 import bhaggy from "../assets/projectImgs/bhagwanyoga.png";
 import guessMyNumber from "../assets/projectImgs/guessmynumber.png";
 import cyberjump from "../assets/projectImgs/cyberjump.png";
+import geographica from "../assets/projectImgs/geographica.png";
 
 function ProjectCard() {
   return (
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
       <article>
         <span className="block h-64 rounded shadow md:border-l-8 border-gray-300 border-opacity-60 hover:border-l-12">
           <a
@@ -20,7 +21,25 @@ function ProjectCard() {
             />
           </a>
           <span className="flex justify-center mt-2">
-            <h4>E-commerce website</h4>
+            <p>E-commerce website</p>
+          </span>
+        </span>
+      </article>
+      <article>
+        <span className="block h-64 rounded shadow md:border-l-8 border-gray-300 border-opacity-60 hover:border-l-12">
+          <a
+            href="https://geographica.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={geographica}
+              alt="E-commerce website"
+              className="object-cover h-full w-full"
+            />
+          </a>
+          <span className="flex justify-center mt-2">
+            <h4>Map Application</h4>
           </span>
         </span>
       </article>

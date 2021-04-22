@@ -5,6 +5,7 @@ import SocialFollow from "./SocialFollow";
 function Navbar() {
   const [active, setActive] = useState(false);
   const [navbarColored, setNavbarColored] = useState(false);
+  const [dropdownMenu, setDropdownMenu] = useState(false);
 
   const onMenuClick = () => {
     setActive(!active);
@@ -13,8 +14,10 @@ function Navbar() {
   const changeNavbarBg = () => {
     if (window.scrollY > 0) {
       setNavbarColored(true);
+      setDropdownMenu(true);
     } else {
       setNavbarColored(false);
+      setDropdownMenu(false);
     }
   };
 
@@ -25,16 +28,13 @@ function Navbar() {
       className={
         navbarColored
           ? "bg-black fixed z-100 w-full"
-          : `bg-transparent fixed z-10 w-full`
+          : "bg-transparent fixed z-10 w-full"
       }
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between p-2.5">
         <div
           onClick={onMenuClick}
-          className={`
-          text-gray-200 cursor-pointer py-4 px-4
-        md:hidden uppercase
-        `}
+          className="text-gray-200 uppercase cursor-pointer py-4 px-4 md:hidden"
         >
           <i className="fas fa-angle-down fa-2x"></i>
         </div>
@@ -45,7 +45,13 @@ function Navbar() {
           md:static md:w-auto md:flex-row md:flex
         `}
         >
-          <div className="nav-items md:flex-row md:flex">
+          <div
+            className={
+              dropdownMenu
+                ? "nav-items md:flex-row md:flex bg-black"
+                : "nav-items md:flex-row md:flex"
+            }
+          >
             <div className="nav-item md:mr-4">
               <Link
                 to="home"
@@ -99,7 +105,7 @@ function Navbar() {
             </div>
           </div>
         </nav>
-        <div className=" text-gray-200 py-5 px-5">
+        <div className="text-gray-200 py-5 px-5">
           <SocialFollow />
         </div>
       </div>
