@@ -6,9 +6,9 @@ import geographica from "../assets/projectImgs/geographica.png";
 
 function ProjectCard() {
   return (
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
-      <article>
-        <span className="block h-64 rounded shadow md:border-l-8 border-gray-300 border-opacity-60 hover:border-l-12">
+    <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-y-12 gap-x-4">
+      <div>
+        <span className="block h-80 rounded shadow md:border-l-8 border-gray-300 border-opacity-60 hover:border-l-12">
           <a
             href="https://bhagwanyoga.netlify.app"
             target="_blank"
@@ -21,12 +21,14 @@ function ProjectCard() {
             />
           </a>
           <span className="flex justify-center mt-2">
-            <p>E-commerce website</p>
+            <p className="font-light italic">
+              E-commerce website for yoga products
+            </p>
           </span>
         </span>
-      </article>
-      <article>
-        <span className="block h-64 rounded shadow md:border-l-8 border-gray-300 border-opacity-60 hover:border-l-12">
+      </div>
+      <div>
+        <span className="block h-80 rounded shadow md:border-l-8 border-gray-300 border-opacity-60 hover:border-l-12">
           <a
             href="https://geographica.netlify.app/"
             target="_blank"
@@ -39,12 +41,14 @@ function ProjectCard() {
             />
           </a>
           <span className="flex justify-center mt-2">
-            <h4>Map Application</h4>
+            <p className="font-light italic">
+              Map application built on MapBox API
+            </p>
           </span>
         </span>
-      </article>
-      <article>
-        <span className="block h-64 rounded shadow md:border-l-8 border-gray-300 border-opacity-60">
+      </div>
+      <div>
+        <span className="block h-80 rounded shadow md:border-l-8 border-gray-300 border-opacity-60">
           <a
             href="https://antonmaenpaa.github.io/quiz-app/login.html"
             target="_blank"
@@ -56,13 +60,13 @@ function ProjectCard() {
               className="object-cover h-full w-full"
             />
           </a>
-          <span>
-            <h4 className="flex justify-center mt-2">Number guesser game</h4>
+          <span className="flex justify-center mt-2">
+            <p className="font-light italic">Number Guesser Game</p>
           </span>
         </span>
-      </article>
-      <article>
-        <span className="block h-64 rounded shadow md:border-l-8 border-gray-300 border-opacity-60">
+      </div>
+      <div>
+        <span className="block h-80 rounded shadow md:border-l-8 border-gray-300 border-opacity-60">
           <a
             href="https://cyberjump.netlify.app/"
             target="_blank"
@@ -74,11 +78,11 @@ function ProjectCard() {
               className="object-cover h-full w-full"
             />
           </a>
-          <span>
-            <h4 className="flex justify-center mt-2">p5.js Game</h4>
+          <span className="flex justify-center mt-2">
+            <p className="font-light italic">Game built with p5.js</p>
           </span>
         </span>
-      </article>
+      </div>
     </div>
   );
 }

@@ -12,7 +12,7 @@ function Skills(props: Id) {
         id={props.id}
         className="max-w-5xl mx-auto flex flex-row justify-center items-center h-full w-full bg-gray-100"
       >
-        <div style={{ width: "40%" }} className="flex justify-center mt-16">
+        <div style={{ width: "40%" }}>
           <div className="border-8 border-gray-300 border-opacity-60 rounded-sm">
             <img
               style={{ height: "30rem" }}
@@ -24,7 +24,10 @@ function Skills(props: Id) {
             />
           </div>
         </div>
-        <div style={{ width: "60%" }} className="ml-16">
+        <div
+          style={{ width: "60%" }}
+          className="flex flex-col items-center ml-16"
+        >
           <h1 className="text-4xl font-bold">
             <Typewriter
               onInit={(typewriter: any) => {
@@ -32,21 +35,27 @@ function Skills(props: Id) {
               }}
             />
           </h1>
-          <div className="flex justify-between items-center">
+          <div className="flex items-center">
             <div className="p-4">
               <p className="p-4 font-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-                facilis quae enim quo excepturi consectetur accusantium?
-                Voluptatum odio explicabo esse, excepturi soluta aliquam
-                suscipit totam consequatur quam nisi vero laboriosam, dolorem
-                praesentium atque, eos impedit expedita non enim et quaerat
-                quisquam? Modi et possimus neque asperiores eligendi velit eius
-                ipsum.
-              </p>
-              <p className="p-4 font-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                ipsam quaerat facilis quibusdam corrupti nisi cupiditate rem
-                expedita quidem pariatur.
+                At Medieinstitutets Front End Developer program, I study web
+                techniques that are required to produce advanced web pages. I
+                will learn the fundamentals of HTML, CSS, JavaScript and
+                TypeScript along with web design, user access abilities/UX,
+                responsive design, and mobile web applications in Front End
+                Libraries like React. I will also learn the basics of Back End
+                technologies like Node.js, Express, and MongoDB. <br />
+                <br /> If you would like a more detailed explanation of the
+                program, please visit{" "}
+                <a
+                  href="https://medieinstitutet.se/utbildningar/front-end-developer/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-green-600"
+                >
+                  Medieinstitutet
+                </a>
+                .{" "}
               </p>
             </div>
           </div>

@@ -22,8 +22,17 @@ function Projects(props: Id) {
             />
           </h2>
           <p className="text-gray-800 font-semi-bold mb-6 mt-2 p-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-            maxime?
+            Have a look on a few of the projects I've created together with some
+            of my classmates. For more projects, please visit my{" "}
+            <a
+              href="https://github.com/puppets101"
+              target="_blank"
+              rel="noreferrer"
+              className="text-green-600"
+            >
+              GitHub
+            </a>{" "}
+            page.
           </p>
           <div>
             <ProjectCard />
