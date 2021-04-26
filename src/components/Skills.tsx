@@ -26,8 +26,9 @@ function Skills(props: Id) {
                   will learn the fundamentals of HTML, CSS, JavaScript and
                   TypeScript along with web design, user access abilities/UX,
                   responsive design, and mobile web applications in Front End
-                  Libraries like React. I will also learn the basics of Back End
-                  technologies like Node.js, Express, and MongoDB. <br />
+                  Libraries like React. I will also learn the fundamentals of
+                  Back End technologies like Node.js, Express, and MongoDB.{" "}
+                  <br />
                   <br /> If you would like a more detailed explanation of the
                   program, please visit{" "}
                   <a

@@ -70,7 +70,7 @@ function Navbar() {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-48}
+                offset={-142}
                 duration={500}
                 className="flex w-full text-xl font-bold uppercase text-gray-200 hover:text-gray-100 cursor-pointer py-1 px-4"
               >
@@ -83,7 +83,7 @@ function Navbar() {
                 activeClass="active"
                 spy={true}
                 smooth={true}
-                offset={-96}
+                offset={-110}
                 duration={500}
                 className="flex w-full text-xl font-bold uppercase text-gray-200 hover:text-gray-100 cursor-pointer py-1 px-4"
               >

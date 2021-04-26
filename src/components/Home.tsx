@@ -16,7 +16,7 @@ function Home(props: Id) {
           style={{ backgroundImage: `url(${Hero})` }}
         >
           <WelcomeMessage />
-          <div className="my-4 text-white text-center z-10">
+          <div className="my-4 px-2 text-white text-center z-10">
             <h5>
               Aspiring Front End Developmer studying at Medieinstitutet in
               Gothenburg.

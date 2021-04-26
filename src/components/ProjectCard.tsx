@@ -1,6 +1,6 @@
 import React from "react";
 import bhaggy from "../assets/projectImgs/bhagwanyoga.png";
-import guessMyNumber from "../assets/projectImgs/guessmynumber.png";
+import guessMyNumber2 from "../assets/projectImgs/guessmynumber2.png";
 import cyberjump from "../assets/projectImgs/cyberjump.png";
 import geographica from "../assets/projectImgs/geographica.png";
 
@@ -17,7 +17,7 @@ function ProjectCard() {
             <img
               src={bhaggy}
               alt="E-commerce website"
-              className="object-cover h-full w-full"
+              className="object-cover h-full w-full hover:shadow-lg"
             />
           </a>
           <span className="flex justify-center mt-2">
@@ -37,7 +37,7 @@ function ProjectCard() {
             <img
               src={geographica}
               alt="E-commerce website"
-              className="object-cover h-full w-full"
+              className="object-cover h-full w-full hover:shadow-lg"
             />
           </a>
           <span className="flex justify-center mt-2">
@@ -55,13 +55,15 @@ function ProjectCard() {
             rel="noreferrer"
           >
             <img
-              src={guessMyNumber}
+              src={guessMyNumber2}
               alt="Guess my number game"
-              className="object-cover h-full w-full"
+              className="object-fit h-full w-full hover:shadow-lg"
             />
           </a>
           <span className="flex justify-center mt-2">
-            <p className="font-light italic">Number Guesser Game</p>
+            <p className="font-light italic">
+              Number Guesser Game built with vanilla JS
+            </p>
           </span>
         </span>
       </div>
@@ -75,7 +77,7 @@ function ProjectCard() {
             <img
               src={cyberjump}
               alt="p5.js game"
-              className="object-cover h-full w-full"
+              className="object-fit h-full w-full hover:shadow-lg"
             />
           </a>
           <span className="flex justify-center mt-2">
