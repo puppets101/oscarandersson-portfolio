@@ -33,14 +33,14 @@ function Skills(props: Id) {
                 knowledge, I have a holistic understanding to handle and store
                 data to develop functional, database-driven web applications.
               </p>
-              <p className="p-4 font-semi-bold leading-relaxed">
+              <p className="p-4 text-sm font-semi-bold leading-relaxed">
                 If you would like a more detailed explanation of the program,
                 please visit{" "}
                 <a
                   href="https://medieinstitutet.se/utbildningar/front-end-developer/"
                   target="_blank"
                   rel="noreferrer"
-                  className="text-green-600"
+                  className="text-green-600 italic"
                 >
                   Medieinstitutet
                 </a>

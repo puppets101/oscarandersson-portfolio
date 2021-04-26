@@ -22,7 +22,7 @@ function ProjectCard() {
           </a>
           <span className="flex justify-center mt-2">
             <p className="font-light italic">
-              E-commerce website for yoga products
+              E-commerce website created using React
             </p>
           </span>
         </span>
@@ -42,7 +42,7 @@ function ProjectCard() {
           </a>
           <span className="flex justify-center mt-2">
             <p className="font-light italic">
-              Map application built on MapBox API
+              Map application created using MapBox API
             </p>
           </span>
         </span>
@@ -62,7 +62,7 @@ function ProjectCard() {
           </a>
           <span className="flex justify-center mt-2">
             <p className="font-light italic">
-              Number Guesser Game built with vanilla JS
+              Guessing Game created using vanilla JS
             </p>
           </span>
         </span>
@@ -81,7 +81,7 @@ function ProjectCard() {
             />
           </a>
           <span className="flex justify-center mt-2">
-            <p className="font-light italic">Game built with p5.js</p>
+            <p className="font-light italic">Game created using p5.js</p>
           </span>
         </span>
       </div>

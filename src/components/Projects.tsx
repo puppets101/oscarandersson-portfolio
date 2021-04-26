@@ -25,7 +25,7 @@ function Projects(props: Id) {
               href="https://github.com/puppets101"
               target="_blank"
               rel="noreferrer"
-              className="text-green-600"
+              className="text-green-600 italic"
             >
               GitHub
             </a>{" "}
