@@ -40,7 +40,7 @@ function Navbar() {
         </div>
         <nav
           className={`
-          ${active ? "bg-black-800 opacity-80" : "hidden"}
+          ${active ? "bg-black-800" : "hidden"}
           absolute flex flex-col top-full w-full left-0 z-20
           md:static md:w-auto md:flex-row md:flex
         `}

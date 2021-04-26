@@ -6,9 +6,9 @@ import geographica from "../assets/projectImgs/geographica.png";
 
 function ProjectCard() {
   return (
-    <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-y-12 gap-x-4">
+    <div className="grid md:grid-cols-2 gap-y-12 gap-x-4">
       <div>
-        <span className="block h-80 rounded shadow md:border-l-8 border-gray-300 border-opacity-60 hover:border-l-12">
+        <span className="block rounded shadow h-80 w-full">
           <a
             href="https://bhagwanyoga.netlify.app"
             target="_blank"
@@ -28,7 +28,7 @@ function ProjectCard() {
         </span>
       </div>
       <div>
-        <span className="block h-80 rounded shadow md:border-l-8 border-gray-300 border-opacity-60 hover:border-l-12">
+        <span className="block rounded shadow h-80 w-full">
           <a
             href="https://geographica.netlify.app/"
             target="_blank"
@@ -48,7 +48,7 @@ function ProjectCard() {
         </span>
       </div>
       <div>
-        <span className="block h-80 rounded shadow md:border-l-8 border-gray-300 border-opacity-60">
+        <span className="block rounded shadow h-80 w-full">
           <a
             href="https://antonmaenpaa.github.io/quiz-app/login.html"
             target="_blank"
@@ -66,7 +66,7 @@ function ProjectCard() {
         </span>
       </div>
       <div>
-        <span className="block h-80 rounded shadow md:border-l-8 border-gray-300 border-opacity-60">
+        <span className="block rounded shadow h-80 w-full">
           <a
             href="https://cyberjump.netlify.app/"
             target="_blank"

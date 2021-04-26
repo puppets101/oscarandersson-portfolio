@@ -8,11 +8,8 @@ interface Id {
 
 function Projects(props: Id) {
   return (
-    <div className="flex flex-col my-12">
-      <div
-        id={props.id}
-        className="max-w-5xl mx-auto flex flex-row justify-center items-center bg-gray-100 my-16"
-      >
+    <div className="my-12 max-w-5xl mx-auto">
+      <div id={props.id} className="bg-gray-100 px-1 sm:px-4">
         <section className="container mx-auto">
           <h2 className="text-4xl font-bold">
             <Typewriter
