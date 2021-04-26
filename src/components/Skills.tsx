@@ -19,35 +19,39 @@ function Skills(props: Id) {
               />
             </h1>
             <div>
-              <div>
-                <p className="p-4 font-light leading-relaxed">
-                  At Medieinstitutets Front End Developer program, I study web
-                  techniques that are required to produce advanced web pages. I
-                  will learn the fundamentals of HTML, CSS, JavaScript and
-                  TypeScript along with web design, user access abilities/UX,
-                  responsive design, and mobile web applications in Front End
-                  Libraries like React. I will also learn the fundamentals of
-                  Back End technologies like Node.js, Express, and MongoDB.{" "}
-                  <br />
-                  <br /> If you would like a more detailed explanation of the
-                  program, please visit{" "}
-                  <a
-                    href="https://medieinstitutet.se/utbildningar/front-end-developer/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-green-600"
-                  >
-                    Medieinstitutet
-                  </a>
-                  .{" "}
-                </p>
-              </div>
+              <p className="p-4 font-light leading-relaxed">
+                At Medieinstitutets Front End Developer program, I study web
+                techniques that are required to produce advanced web pages. I'm
+                learning the fundamentals of HTML, CSS, JavaScript and
+                TypeScript along with web design, user access abilities/UX,
+                responsive design, and mobile/web applications in Front End
+                Libraries like React.
+              </p>
+              <p className="p-4 font-light leading-relaxed">
+                During the program, I'm also learning the basics of Back End
+                technologies like Node.js, Express, and MongoDB. With this
+                knowledge, I have a holistic understanding to handle and store
+                data to develop functional, database-driven web applications.
+              </p>
+              <p className="p-4 font-semi-bold leading-relaxed">
+                If you would like a more detailed explanation of the program,
+                please visit{" "}
+                <a
+                  href="https://medieinstitutet.se/utbildningar/front-end-developer/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-green-600"
+                >
+                  Medieinstitutet
+                </a>
+                .
+              </p>
             </div>
           </div>
           <div className="md:w-1/3">
             <div className="rounded-sm">
               <img
-                style={{ height: "30rem" }}
+                style={{ height: "25rem" }}
                 src={
                   "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1504&q=80"
                 }

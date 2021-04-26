@@ -29,7 +29,7 @@ function Home(props: Id) {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-48}
+                offset={-96}
               >
                 <i className="fas fa-angle-down fa-3x"></i>
               </Link>
