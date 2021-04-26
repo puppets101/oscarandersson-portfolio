@@ -18,9 +18,9 @@ function Projects(props: Id) {
               }}
             />
           </h2>
-          <p className="text-gray-800 font-semi-bold mb-6 mt-2 p-4">
-            {/* TODO!!! */}
-            For more samples, visit my{" "}
+          <p className="text-gray-800 font-light mb-6 mt-2 p-4">
+            Please, have a look on some of my project I've developed up to this
+            point. For more samples, visit my{" "}
             <a
               href="https://github.com/puppets101"
               target="_blank"
@@ -31,6 +31,7 @@ function Projects(props: Id) {
             </a>{" "}
             page.
           </p>
+
           <div>
             <ProjectCard />
           </div>

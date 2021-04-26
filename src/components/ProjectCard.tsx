@@ -6,7 +6,7 @@ import geographica from "../assets/projectImgs/geographica.png";
 
 function ProjectCard() {
   return (
-    <div className="grid md:grid-cols-2 gap-y-12 gap-x-4">
+    <div className="grid md:grid-cols-2 gap-y-12 gap-x-4 mb-16">
       <div>
         <span className="block rounded shadow h-80 w-full">
           <a
