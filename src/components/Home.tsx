@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import Hero from "../assets/showcaseHero.jpeg";
 import WelcomeMessage from "./WelcomeMessage";
 

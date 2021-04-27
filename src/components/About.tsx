@@ -1,5 +1,4 @@
 import React from "react";
-import profileImg from "../assets/unnamed.png";
 import squareProfileImg from "../assets/squareprofileimg.png";
 import Typewriter from "typewriter-effect";
 
