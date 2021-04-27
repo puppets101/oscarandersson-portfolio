@@ -1,5 +1,6 @@
 import React from "react";
 import profileImg from "../assets/unnamed.png";
+import squareProfileImg from "../assets/squareprofileimg.png";
 import Typewriter from "typewriter-effect";
 
 interface Id {
@@ -38,21 +39,14 @@ function About(props: Id) {
                   forward to taking my experience into a new line of work.
                 </p>
               </div>
-              {/* <div>
-                <p className="font-semi-bold text-gray-800">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-                  maxime?
-                </p>
-              </div> */}
             </div>
           </div>
           <div className="md:w-1/3 flex justify-center items-center my-4">
-            <div className="bg-gray-800 h-64 w-64 rounded-full"></div>
-            {/* <img
-              src={profileImg}
+            <img
+              src={squareProfileImg}
               alt="Me"
-              className="object-cover object-center h-96 w-96"
-            /> */}
+              className="object-cover object-center h-64 w-64 rounded-full"
+            />
           </div>
         </section>
       </div>
