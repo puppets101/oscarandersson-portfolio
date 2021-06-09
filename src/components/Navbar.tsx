@@ -31,7 +31,7 @@ function Navbar() {
           : "bg-transparent fixed z-10 w-full"
       }
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between p-2.5">
+      <div className="max-w-5xl mx-auto flex items-center justify-between p-2.5">
         <div
           onClick={onMenuClick}
           className="text-gray-200 uppercase cursor-pointer py-4 px-4 md:hidden"
@@ -52,19 +52,7 @@ function Navbar() {
                 : "nav-items md:flex-row md:flex"
             }
           >
-            <div className="nav-item md:mr-4">
-              <Link
-                to="home"
-                activeClass="active"
-                spy={true}
-                smooth={true}
-                duration={500}
-                className="flex w-full text-xl font-bold uppercase text-gray-200 hover:text-gray-100 cursor-pointer py-1 px-4"
-              >
-                Oscar Andersson
-              </Link>
-            </div>
-            <div className="nav-item md:mr-4">
+            <div className="nav-item">
               <Link
                 to="about"
                 activeClass="active"
@@ -77,7 +65,7 @@ function Navbar() {
                 About
               </Link>
             </div>
-            <div className="nav-item md:mr-4">
+            <div className="nav-item">
               <Link
                 to="skills"
                 activeClass="active"
@@ -90,7 +78,7 @@ function Navbar() {
                 Skills
               </Link>
             </div>
-            <div className="nav-item md:mr-4">
+            <div className="nav-item">
               <Link
                 to="projects"
                 activeClass="active"

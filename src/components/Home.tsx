@@ -18,7 +18,7 @@ function Home(props: Id) {
           <WelcomeMessage />
           <div className="my-4 px-2 text-white text-center z-10">
             <h5>
-              Aspiring Front End Developmer studying at Medieinstitutet in
+              Aspiring Front End Developer studying at Medieinstitutet in
               Gothenburg.
             </h5>
           </div>
