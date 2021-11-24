@@ -1,5 +1,6 @@
 import React from "react";
-import SocialFollow from "./SocialFollow";
+import SocialIcon from "./SocialIcon";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
@@ -27,7 +28,16 @@ function Footer() {
           </p>
         </div>
         <div className="w-1/3 flex justify-center items-center text-2xl">
-          <SocialFollow />
+          <SocialIcon
+            url="https://github.com/puppets101"
+            icon={faGithub}
+            size="2x"
+          />
+          <SocialIcon
+            url="https://linkedin.com/in/oscar-andersson-320928208"
+            icon={faLinkedin}
+            size="2x"
+          />
         </div>
       </div>
     </div>
