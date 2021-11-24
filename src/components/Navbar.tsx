@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import SocialFollow from "./SocialFollow";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import SocialIcon from "./SocialIcon";
 
 function Navbar() {
   const [active, setActive] = useState(false);
@@ -94,7 +95,16 @@ function Navbar() {
           </div>
         </nav>
         <div className="text-gray-200 py-5 px-5">
-          <SocialFollow />
+          <SocialIcon
+            url="https://github.com/puppets101"
+            icon={faGithub}
+            size="2x"
+          />
+          <SocialIcon
+            url="https://linkedin.com/in/oscar-andersson-320928208"
+            icon={faLinkedin}
+            size="2x"
+          />
         </div>
       </div>
     </header>
