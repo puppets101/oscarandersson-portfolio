@@ -1,11 +1,11 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import ProjectCard from "./ProjectCard";
+import { projects } from "../projects";
+import Project from "./Project";
 
 interface Id {
   id: string;
 }
-
 function Projects(props: Id) {
   return (
     <div className="my-12 max-w-5xl mx-auto">
@@ -31,9 +31,15 @@ function Projects(props: Id) {
             </a>{" "}
             page.
           </p>
-
-          <div>
-            <ProjectCard />
+          <div className="grid md:grid-cols-2 gap-y-12 gap-x-4 mb-16">
+            {projects.map((project) => (
+              <Project
+                key={project.id}
+                description={project.description}
+                url={project.url}
+                img={project.img}
+              />
+            ))}
           </div>
         </section>
       </div>
