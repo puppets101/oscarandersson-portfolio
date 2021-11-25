@@ -1,7 +1,7 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
 import { projects } from "../projects";
 import Project from "./Project";
+import TypingTitle from "./TypingTitle";
 
 interface Id {
   id: string;
@@ -11,13 +11,7 @@ function Projects(props: Id) {
     <div className="my-12 max-w-5xl mx-auto">
       <div id={props.id} className="bg-gray-100 px-1 sm:px-4">
         <section className="container mx-auto">
-          <h2 className="text-4xl font-bold">
-            <Typewriter
-              onInit={(typewriter: any) => {
-                typewriter.typeString("Projects").start();
-              }}
-            />
-          </h2>
+          <TypingTitle title="Projects" classes="text-4xl font-bold" />
           <p className="text-gray-800 font-light mb-6 mt-2 p-4">
             Please, have a look on some of my project I've developed up to this
             point. For more samples, visit my{" "}

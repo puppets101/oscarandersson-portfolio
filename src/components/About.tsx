@@ -1,6 +1,6 @@
 import React from "react";
 import squareProfileImg from "../assets/squareprofileimg.png";
-import Typewriter from "typewriter-effect";
+import TypingTitle from "./TypingTitle";
 
 interface Id {
   id: string;
@@ -12,13 +12,7 @@ function About(props: Id) {
       <div id={props.id} className="bg-gray-100 px-1 sm:px-4">
         <section className="container block md:flex mx-auto">
           <div className="md:w-2/3">
-            <h1 className="text-4xl font-bold">
-              <Typewriter
-                onInit={(typewriter: any) => {
-                  typewriter.typeString("About Me").start();
-                }}
-              />
-            </h1>
+            <TypingTitle title="About me" classes="text-4xl font-bold" />
             <div>
               <div>
                 <p className="p-4 font-light leading-relaxed">

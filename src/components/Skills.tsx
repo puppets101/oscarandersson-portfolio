@@ -1,5 +1,5 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
+import TypingTitle from "./TypingTitle";
 
 interface Id {
   id: string;
@@ -11,13 +11,7 @@ function Skills(props: Id) {
       <div id={props.id} className="bg-gray-100 px-1 sm:px-4">
         <section className="container block md:flex md:flex-row-reverse mx-auto">
           <div className="md:w-2/3 md:ml-8">
-            <h1 className="text-4xl font-bold">
-              <Typewriter
-                onInit={(typewriter: any) => {
-                  typewriter.typeString("Skills").start();
-                }}
-              />
-            </h1>
+            <TypingTitle title="Skills" classes="text-4xl font-bold" />
             <div>
               <p className="p-4 font-light leading-relaxed">
                 At Medieinstitutets Front End Developer program, I study web

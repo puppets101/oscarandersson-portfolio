@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import Hero from "../assets/showcaseHero.jpeg";
-import WelcomeMessage from "./WelcomeMessage";
+import TypingTitle from "./TypingTitle";
 
 interface Id {
   id: string;
@@ -15,7 +15,10 @@ function Home(props: Id) {
           className="relative flex flex-col items-center justify-center h-full bg-cover bg-center bg-fixed bg-no-repeat"
           style={{ backgroundImage: `url(${Hero})` }}
         >
-          <WelcomeMessage />
+          <TypingTitle
+            title="Hello. I am Oscar."
+            classes="relative px-2.5 text-white z-10 text-5xl sm:text-7xl md:text-8xl font-bold font-bold text-center"
+          />
           <div className="my-4 px-2 text-white text-center z-10">
             <h5>
               Aspiring Front End Developer studying at Medieinstitutet in
